@@ -1,0 +1,68 @@
+.contenedor_imagen_joya{
+    width: 100px;
+    height: 50%;
+}
+.contenedor_imagen_joya>img{
+    width: 100%;
+    height: 100%;
+}
+main{
+    margin-bottom: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+main>article{
+    background-color: #3d6692;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 5vh;
+    height: 40vh;
+    width: 40%;
+    min-width: 400px;
+}
+article>div:last-child{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+article>h3{
+    color: rgb(3, 3, 82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    width: 100%;
+    height: 35%;
+    text-shadow: white 0.1em 0.1em 0.2em
+    
+}
+main p{
+    color: white;
+    margin-left: 10%;
+    font-size: x-large;
+}
+main a{
+    color: black;
+    font-size: larger;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+main a:hover{
+    background-color:rgb(3, 3, 82);
+    cursor: pointer;
+    transition:ease 1s;
+    transform: scale(1.1);
+    font-size: x-large;
+    color: white;
+    transition:ease 1s;
+    
+}
